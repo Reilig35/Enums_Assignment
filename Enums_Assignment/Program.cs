@@ -10,6 +10,7 @@ namespace Enums_Assignment
             var userInput = Console.ReadLine();
             try
             {
+                //Converting the string to the enum type
                 var currentDay = Enum.Parse(typeof(Days_Of_The_Week), userInput);
                 Console.WriteLine($"\n\nToday is {currentDay}");
             }
